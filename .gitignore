@@ -1,0 +1,13 @@
+# 비밀 값 (API 키) - 절대 올리지 않는다
+.env
+.env.*
+!.env.example
+
+# Streamlit 로컬 시크릿
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
